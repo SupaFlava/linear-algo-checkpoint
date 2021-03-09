@@ -46,13 +46,43 @@ FOR (LET i = 0; i < set1 LENGTH; i++)
  return sum
 
 // solution With hash / objects
-LET newObj = set1 + set2;
 
-FOR (LET i = O ; i < newObj LENGTH; i++){
 
-  newObj.value = newObj[i]
-  
 
+
+//create new object/hash
+
+LET newObj := Empty object;
+let sum := 0;
+
+FOR (LET i = O ; i < se1.LENGT; i++){
+
+ add set1 element to newObj
+ set element value := 1;
+
+ if (element[i] exist in newObj)
+ element value ++
+
+ return newObj;
+}
+
+ FOR (LET i =O; i < set2.LENGTH; i++){
+   add set2 element to newObj
+ set element value := 1;
+
+ if (element[i] exist in newObj)
+ element value ++
+
+ return newObj;
+
+ }
+
+   FOR ( i =0; i <newObj.length, i++){
+    if (newObj[i] value === 1)
+    sum += newObj[i].KEY
+   }
+   
+  return sum
 } 
 
 
